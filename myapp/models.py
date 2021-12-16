@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 # 发布会表
 class Event(models.Model):
@@ -28,7 +29,3 @@ class Guest(models.Model):
 
     def __str__(self):
         return self.realname
-
-
-
-
